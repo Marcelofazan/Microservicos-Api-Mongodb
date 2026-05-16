@@ -3,7 +3,7 @@ Exemplo de criação de WebAPI de arquitetura distribuída, desenvolvida em .NET
 
 ### O que você vai encontrar neste projeto
 - **IRepository<T>** - Implementação de um repositório genérico focado no MongoDB, será criado um banco de dados para cada projeto WebAPI.
-- **Nuget** - Criação de pacote NuGet para estratégia (DRY), para evitar repetição de código no compartilhameto entre microserviços.
+- **Nuget** - Criação de pacote NuGet para estratégia (DRY), para evitar repetição de código no compartilhamento entre microserviços.
 
 
 ### Requisitos e Detalhe do uso
