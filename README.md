@@ -21,7 +21,7 @@ Após Clicar com botão inverso no projeto Inventário e selecionar Definir proj
 - Executar WebAPI Inventário, ela dependendo de localhost de WebAPI de Catalogo.  
 Builder da WebAPI Inventario **(https://localhost:7012/api/Items)** ou **(https://localhost:7012/swagger/index.html)**
 
-#### 🧪 Execução de Endpoints
+#### 🧪 Executar os Endpoints
 - Enviar POST / Catalogo para criação do banco Entity: **https://localhost:7026/api/items/**, selecionar Guia Body e enviar RAW e enviar o seguinte JSON 
 
 ```json
