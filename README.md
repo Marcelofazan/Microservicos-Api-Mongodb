@@ -9,7 +9,7 @@ Exemplo de criação de API de Arquitetura Distribuída, desenvolvida em .NET 10
 | **IRepository<T>**| Implementação de um repositório genérico focado no MongoDB, será criado um banco de dados para cada projeto WebAPI |
 | **Pacote Nuget**| Criação de pacote NuGet para estratégia (DRY), para evitar repetição de código no compartilhamento entre microserviços.|
 
-#### 📁 Requisitos do Projeto
+#### Requisitos do Projeto
 - Necessário acomplamento de serviços, o Inventário depende da execução de Catalogo.
 - Necessário servidor MongoDB local instalado **(localhost:27017)**
 
