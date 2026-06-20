@@ -16,11 +16,19 @@ Exemplo de API microserviços de arquitetura distribuída em C# ASP.NET 10 com b
 #### 🔄 Executar a Aplicação
 Necessário duas vezes (Definir projeto de de Inicialiação).
 
-- Executar WebAPI Catalogo para cadastro de produtos: 
-Builder da WebAPI Catalogo **(https://localhost:7026/api/items/)** ou **(https://localhost:7026/swagger/index.html)**
+- Executar API Catalogo para cadastro de produtos: 
 
-- Executar WebAPI Inventário, ela dependendo de localhost de WebAPI de Catalogo.  
-Builder da WebAPI Inventario **(https://localhost:7012/api/Items)** ou **(https://localhost:7012/swagger/index.html)**
+| HOST | URL |
+|-----------|-----------|
+| **API**  |(https://localhost:7026/api/items/) |
+| **Swagger** |(https://localhost:7026/swagger/index.html) |
+
+- Executar API Inventário, ela depende de API de Catalogo.  
+
+| HOST | URL |
+|-----------|-----------|
+| **API**  |(https://localhost:7012/api/Items) |
+| **Swagger** |(https://localhost:7012/swagger/index.html |
 
 #### 🧪 Executar Endpoints
 - Enviar POST / Catalogo para criação do banco Entity: **https://localhost:7026/api/items/**, selecionar Guia Body e enviar RAW e enviar o seguinte Content-Type: application/json
@@ -42,7 +50,7 @@ Builder da WebAPI Inventario **(https://localhost:7012/api/Items)** ou **(https:
 }
 ```
 
-#### 📦 Pacote Nuget
+#### ⚙️ Configuração Pacote Nuget
 
  O Projeto Pacote foi compilado e hospedado em **(nuget.org)** para ser usado no projeto com o comando **(using Pacote;)** 
  
