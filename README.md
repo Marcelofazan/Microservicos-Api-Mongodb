@@ -7,7 +7,7 @@ Exemplo de API microserviços de arquitetura distribuída em C# ASP.NET 10 com b
 |-----------|-----------|
 | **Arquitetura distribuída**| É um modelo executado em diferentes servidores conectados em rede, conversando entre si para parecer único sistema |
 | **IRepository<T>**| Implementação de um repositório genérico focado no MongoDB, será criado um banco de dados para cada projeto WebAPI |
-| **Pacote Nuget**| Criação de pacote NuGet para estratégia (DRY), para evitar repetição de código no compartilhamento entre microserviços.|
+| **Nuget**| Criação de pacote NuGet para estratégia (DRY), para evitar repetição de código no compartilhamento entre microserviços.|
 
 #### 💬 Requisitos do Projeto
 - Necessário acomplamento de serviços, o Inventário depende da execução de Catalogo.
