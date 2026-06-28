@@ -6,7 +6,7 @@ Exemplo de API com Arquitetura Distribuída em Microserviços de em C# ASP.NET 1
 | Tecnologia | Descrição |
 |-----------|-----------|
 | **Arquitetura distribuída**| É um modelo executado em diferentes servidores conectados em rede, conversando entre si para parecer único sistema |
-| **<T>**| Implementação de um repositório genérico focado no MongoDB, será criado um banco de dados para cada projeto WebAPI |
+| **T Genérico**| Criar estruturas de código com diferentes tipos de dados sem precisar reescrever o código para cada um deles. |
 | **Nuget**| Criação de pacote NuGet para estratégia (DRY), para evitar repetição de código no compartilhamento entre microserviços.|
 
 #### 💬 Requisitos do Projeto
